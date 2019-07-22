@@ -1,0 +1,79 @@
+body
+{
+  display:flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.container
+{
+  background-image: url(spotify.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.nav
+{
+  height:80px;
+  background-color: black;
+}
+.nav_logo
+{
+  height: 40px;
+  margin: 22px 0 0 20px;
+}
+.nav_bar
+{
+  color:white;
+  float:right;
+  margin:25px 20px 0 0;
+  font-size: 30px;
+}
+.nav__links{
+	display: none;
+}
+.nav_links a{
+  color:white;
+  text-decoration: none;
+  font-size: 15px;
+  align-content: center;
+}
+@media screen and(min-width:750px){
+  .nav_links
+  {
+    color:white;
+    display:flex;
+    text-decoration: none;
+    text-align: right;
+    align-items: center;
+  }
+  .nav_bar
+  {
+    display: none;
+  }
+
+}
+.data
+{
+  color:white;
+  text-align: center;
+  margin-top: 200px;
+}
+p{
+  padding-bottom: 10px;
+}
+.data_link a{
+  background-color: green;
+  color:white;
+  text-decoration: none;
+  border-radius: 150px;
+  padding: 10px 20px 10px 20px;
+
+}
+.footer
+{
+  background-color: black;
+  height: 100vh;
+  width:100%;
+}
